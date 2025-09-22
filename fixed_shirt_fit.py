@@ -134,9 +134,9 @@ def overlay(shirt_img, body_img, position): ## func to dress the man with the sh
 
 def main():
 
-        shirt_img = do_grabcut_on_shirt("../WhiteShirt.png")
+        shirt_img = do_grabcut_on_shirt("WhiteShirt.png")
 
-        body_img = cv2.imread("../Upper_body_front.png")
+        body_img = cv2.imread("Upper_body_front.png")
 
         shirt_resized, position = change_shirt_size(shirt_img, "Upper_body_front.png")
 
