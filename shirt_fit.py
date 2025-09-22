@@ -31,7 +31,7 @@ mp_selfie_segmentation = mp.solutions.selfie_segmentation
 
 
 
-image_upper = cv2.imread("Upper_body_front.png") #body pic
+image_upper = cv2.imread("../Upper_body_front.png") #body pic
 image_tshirt = cv2.imread("../tshirt2.png") #shirt pic
 
 image_height, image_width, _ = image_upper.shape # body pic measurements
